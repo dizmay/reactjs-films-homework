@@ -11,7 +11,7 @@
   "scripts": {
     "test": "jest",
     "start": "node server.js --mode development",
-    "lint": "eslint src & npx stylelint src",
+    "lint": "eslint src & npx stylelint './src/**/*.scss'",
     "build": "webpack --mode production",
     "prod": "node server.js --mode production"
   },
@@ -40,6 +40,7 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
     "express": "^4.17.1",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.1",
     "husky": "^4.3.8",
     "jest": "^26.6.3",
@@ -59,6 +60,7 @@
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.1.0"
   }
 }

@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="details__container"
+>
+  <div
+    className="details"
+  >
+    <h2
+      className="details__title"
+    >
+      the jungle book
+    </h2>
+    <div
+      className="details__more"
+    >
+      <ul
+        className="details__genres"
+      >
+        <li>
+          Adventure
+        </li>
+        <li>
+          Drama
+        </li>
+        <li>
+          Family
+        </li>
+        <li>
+          Fantasy
+        </li>
+        <li>
+          |
+        </li>
+      </ul>
+      <span
+        className="details__duration"
+      >
+        1h 46m
+      </span>
+    </div>
+    <div
+      className="rateContainer"
+    >
+      <div
+        className="rate"
+      >
+        <input
+          id="star5"
+          type="radio"
+        />
+        <label
+          htmlFor="star5"
+        />
+        <input
+          id="star4"
+          type="radio"
+        />
+        <label
+          htmlFor="star4"
+        />
+        <input
+          id="star3"
+          type="radio"
+        />
+        <label
+          htmlFor="star3"
+        />
+        <input
+          id="star2"
+          type="radio"
+        />
+        <label
+          htmlFor="star2"
+        />
+        <input
+          id="star1"
+          type="radio"
+        />
+        <label
+          htmlFor="star1"
+        />
+      </div>
+      <div
+        className="averageRate"
+      >
+        4.8
+      </div>
+    </div>
+  </div>
+  <div
+    className="buttons"
+  >
+    <button
+      className="btn blue"
+      type="button"
+    >
+      Watch Now
+    </button>
+    <button
+      className="btn transparent"
+      type="button"
+    >
+      View Info
+    </button>
+  </div>
+</div>
+`;
