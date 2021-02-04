@@ -50,6 +50,20 @@
   font-size: 1.25rem;
 }
 
+.rating__container {
+  display: flex;
+  align-items: center;
+}
+
+.averageRate {
+  color: #fff;
+  font-size: 1rem;
+  border: 0.15rem solid #00a3f5;
+  border-radius: 0.2rem;
+  padding: 0.1rem 0.4rem;
+  margin-left: 1rem;
+}
+
 .buttons {
   width: 20rem;
   height: 100%;

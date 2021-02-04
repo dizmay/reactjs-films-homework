@@ -1,23 +1,27 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
+import PropTypes from 'prop-types';
+import shortid from 'shortid';
+import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
 import styles from './Rating.scss';
 
-const Rating = () => (
-  <div className={styles.rateContainer}>
-    <div className={styles.rate}>
-      <input type="radio" id="star5" />
-      <label htmlFor="star5" />
-      <input type="radio" id="star4" />
-      <label htmlFor="star4" />
-      <input type="radio" id="star3" />
-      <label htmlFor="star3" />
-      <input type="radio" id="star2" />
-      <label htmlFor="star2" />
-      <input type="radio" id="star1" />
-      <label htmlFor="star1" />
+const Rating = ({ averageRating }) => {
+  const fillStars = Math.round(averageRating);
+  const outlineStars = 5 - fillStars;
+  const createArray = (length) => new Array(length).fill(0);
+  return (
+    <div className={styles.rating}>
+      {createArray(fillStars).map(() => <AiFillStar key={shortid.generate()} />)}
+      {createArray(outlineStars).map(() => <AiOutlineStar key={shortid.generate()} />)}
     </div>
-    <div className={styles.averageRate}>4.8</div>
-  </div>
-);
+  );
+};
+
+Rating.defaultProps = {
+  averageRating: 0,
+};
+
+Rating.propTypes = {
+  averageRating: PropTypes.number,
+};
 
 export default Rating;
