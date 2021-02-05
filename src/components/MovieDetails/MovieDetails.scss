@@ -29,7 +29,7 @@
 
 .details__more {
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
 }
 
 .details__genres {
@@ -37,11 +37,15 @@
   align-items: center;
   list-style-type: none;
   color: #fff;
-  margin-bottom: 1rem;
 }
 
 .details__genres > li {
   font-size: 1.25rem;
+  margin-right: 1rem;
+}
+
+.details__separator {
+  color: #fff;
   margin-right: 1rem;
 }
 
@@ -53,6 +57,7 @@
 .rating__container {
   display: flex;
   align-items: center;
+  margin-top: 1rem;
 }
 
 .averageRate {

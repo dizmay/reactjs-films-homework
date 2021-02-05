@@ -58,10 +58,9 @@
     "webpack-hot-middleware": "^2.25.0"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-icons": "^4.1.0",
-    "shortid": "^2.2.16"
+    "react-dom": "^17.0.1"
   }
 }
