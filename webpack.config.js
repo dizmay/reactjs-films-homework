@@ -30,6 +30,19 @@ module.exports = {
           'sass-loader',
         ],
       },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: './assets/images/',
+              publicPath: '../assets/images',
+            },
+          },
+        ],
+      },
     ],
   },
   devtool: 'inline-source-map',
