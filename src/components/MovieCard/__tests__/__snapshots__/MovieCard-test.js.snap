@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card__image"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div
+      className="hover_hideContainer"
+    >
+      <div
+        className="hover__watchNow"
+      >
+        <button
+          className="watchNow__btn"
+          onClick={[Function]}
+          type="button"
+        >
+          ►
+        </button>
+        <span
+          className="watchNow__title"
+        >
+          Watch Now
+        </span>
+      </div>
+      <button
+        className="btn transparent"
+        onClick={[Function]}
+        type="button"
+      >
+        View Info
+      </button>
+    </div>
+    <img
+      alt="Movie poster"
+      src="http://underscoremusic.co.uk/site/wp-content/uploads/2014/05/no-poster.jpg"
+    />
+  </div>
+  <div
+    className="card__details"
+  >
+    <div
+      className="info__container"
+    >
+      <div
+        className="info"
+      >
+        <span
+          className="info__title info__title_black"
+        >
+          
+        </span>
+        <div
+          className="info__rate"
+        >
+          0.0
+        </div>
+      </div>
+      <div
+        className="info__genres"
+      >
+        No genres
+      </div>
+    </div>
+  </div>
+</div>
+`;

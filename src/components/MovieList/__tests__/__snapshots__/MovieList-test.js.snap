@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="movieList__container"
+>
+  <h5
+    className="movieList__empty"
+  >
+    No results
+  </h5>
+</div>
+`;

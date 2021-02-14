@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.info__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.info__title {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.info__title_black {
+  color: #000;
+}
+
+.info__title_white {
+  color: #fff;
+}
+
+.info__rate {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #00a3f5;
+  border: 0.15rem solid #00a3f5;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+  margin-left: 0.5rem;
+}
+
+.info__genres {
+  width: 100%;
+  color: #00a3f5;
+}
