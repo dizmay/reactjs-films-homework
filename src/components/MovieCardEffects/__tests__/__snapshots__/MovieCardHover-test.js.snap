@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="hover_hideContainer"
+>
+  <div
+    className="hover__watchNow"
+  >
+    <button
+      className="watchNow__btn"
+      onClick={null}
+      type="button"
+    >
+      ►
+    </button>
+    <span
+      className="watchNow__title"
+    >
+      Watch Now
+    </span>
+  </div>
+  <button
+    className="btn transparent"
+    onClick={[Function]}
+    type="button"
+  >
+    View Info
+  </button>
+</div>
+`;

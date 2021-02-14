@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="info__container_hide"
+>
+  <button
+    className="info__close"
+    onClick={null}
+    type="button"
+  >
+    x
+  </button>
+  <div
+    className="info__container"
+  >
+    <div
+      className="info"
+    >
+      <span
+        className="info__title info__title_black info__title_white"
+      >
+        
+      </span>
+      <div
+        className="info__rate"
+      >
+        0.0
+      </div>
+    </div>
+    <div
+      className="info__genres"
+    >
+      
+    </div>
+  </div>
+  <span
+    className="info_overview"
+  />
+  <button
+    className="btn blue"
+    onClick={null}
+    type="button"
+  >
+    Watch Now
+  </button>
+</div>
+`;

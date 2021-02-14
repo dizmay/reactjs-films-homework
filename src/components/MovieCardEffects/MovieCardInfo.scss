@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.info__container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #000000b3;
+  padding: 1rem 1rem 4rem;
+}
+
+.info__container_hide {
+  display: none;
+}
+
+.info__close {
+  width: 2rem;
+  height: 2rem;
+  color: #fff;
+  font-size: 2rem;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.info_overview {
+  height: 7.5rem;
+  color: #fff;
+  overflow: auto;
+  text-overflow: ellipsis;
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.movieList__container {
+  width: 100vw;
+  min-height: 20vh;
+  background: #e6e6e6e6;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.movieList__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.movieList__empty {
+  font-size: 5rem;
+}
